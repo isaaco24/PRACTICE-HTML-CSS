@@ -7,12 +7,17 @@
     </style>
     this is internal css styling. When using it, all the styling to be done for the website must be written inside the <head><//head> */
 
- /*h1 {
+/*h1 {
   color: blue;
 }
 /*this is external css styling. A new page is created (style.css) then link it with the html using "link href="style.css" rel="stylesheet" />" */
 
-h1, h2, h3, h4, p, li {
+h1,
+h2,
+h3,
+h4,
+p,
+li {
   font-family: sans-serif;
 }
 
@@ -26,22 +31,30 @@ h2 {
   font-size: 40px;
 }
 
-h3{
+h3 {
   font-size: 30px;
 }
 
-h4{
-  font-size: 20px; 
+h4 {
+  font-size: 20px;
   text-transform: uppercase;
-  text-align: center:
+  text-align: center;
 }
 p {
   font-size: 22px;
   line-height: 1.5;
 }
 
-li{
+li {
   font-size: 20px;
 }
 /*The above selectors and their elements(h1, h2, h3, h4, p and li) are the 6 CSS Rules*/
 /*note that we style only the parent element (li). we dont style ol, ul elements*/
+
+footer p {
+  font-size: 16px;
+}
+
+article header p {
+  font-style: italic;
+}
