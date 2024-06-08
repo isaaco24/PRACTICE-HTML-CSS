@@ -1,0 +1,13 @@
+/*<h1 style="color: blue">📘 The Code Magazine</h1> this is inline styling. it should not be used as a developer.*/
+
+/* <style> 
+   h1 {
+    color: blue;
+       }
+    </style>
+    this is internal css styling. When using it, all the styling to be done for the website must be written inside the <head><//head> */
+
+h1 {
+  color: blue;
+}
+/*this is external css styling. A new page is created (style.css) then link it with the html using "link href="style.css" rel="stylesheet" />" */
